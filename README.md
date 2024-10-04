@@ -38,7 +38,7 @@ This project is developed to achieve the following:
 ## Technologies Used
 
 - **SQL**: For creating database schema and queries.
-- **Python/Java**: For executing embedded SQL queries.
+- **Python**: For executing embedded SQL queries.
 - **Relational Algebra**: To perform advanced operations on the data.
 - **Triggers**: To enforce business logic and automate database actions.
 - **Transaction Management**: Ensures database integrity.
@@ -54,9 +54,9 @@ This project is developed to achieve the following:
 2. Set up the database using the provided SQL schema.
 3. Populate the database with the data using the data population script or generator.
 4. Execute SQL queries, OLAP queries, and triggers as defined in the scripts.
-5. Run the embedded SQL using Python/Java (refer to the script in the `src` directory).
+5. Run the embedded SQL using Python (refer to the script in the `FrontEnd` directory).
 6. Test transaction management by executing the provided conflicting queries.
 
 ## ER Diagram and Relational Schema
 
-The ER diagram and relational schema are included in the `diagrams/` folder. These visualize the entities, attributes, and relationships within the RideIt application.
+The ER diagram and relational schema are included in the `ER_Model/` folder. These visualize the entities, attributes, and relationships within the RideIt application.
